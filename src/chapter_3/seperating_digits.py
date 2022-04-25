@@ -1,0 +1,7 @@
+digit = int(input("Enter any five digit number "))
+int5 = int(digit % 10)
+int4 = int(digit % 100/10)
+int3 = int(digit % 1000/100)
+int2 = int(digit % 10000/1000)
+int1 = int(digit % 100000/10000)
+print(int1, "  ", int2, "  ", int3, "  ", int4, "  ", int5, "  ")
